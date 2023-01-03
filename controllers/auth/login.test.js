@@ -1,5 +1,6 @@
 const request = require("supertest");
 const mongoose = require("mongoose");
+require("dotenv").config();
 const { User } = require("../../models");
 const app = require("../../app");
 const { DB_TEST_HOST } = process.env;
